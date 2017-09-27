@@ -1,0 +1,18 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
