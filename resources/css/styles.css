@@ -17,6 +17,8 @@ div {
 
 .flex {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /** Header - START **/
@@ -28,12 +30,12 @@ header {
     height: 100px;
     border-bottom: 1px solid seashell;
     top: 0px;
+    align-items: center;
 }
 
 .logo {
     max-height: 50px;
     margin-left: 10px;
-    margin-top: 10px;
     text-align: left;
 }
 
@@ -41,6 +43,7 @@ nav {
     text-align: right;
     flex-grow: 1;
 }
+
 
 /** Header - END **/
 
@@ -73,11 +76,6 @@ nav {
     height: 200px;
     display: block;
     margin: 10px;
-}
-
-.teas {
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .type {
