@@ -24,6 +24,7 @@ div {
 .main {
     width: 1200px;
     margin: auto;
+    padding-top: 90px;
 }
 
 /** Header - START **/
@@ -60,7 +61,6 @@ nav span {
 .banner {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
     height: 700px;
-    padding-top: 90px;
 }
 
 .mission {
@@ -78,6 +78,8 @@ nav span {
 #month {
     max-width: 1000px;
     margin: auto;
+    height: 700px;
+    padding-top: 80px;
 }
 
 #month img {
@@ -101,10 +103,7 @@ nav span {
 #shop {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     height: 600px;
-}
-
-#shop h2 {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .locations {
