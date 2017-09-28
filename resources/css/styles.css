@@ -21,6 +21,11 @@ div {
     flex-wrap: wrap;
 }
 
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
 /** Header - START **/
 
 header {
@@ -45,9 +50,8 @@ nav {
 
 nav span {
     margin: 5px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
-
 
 /** Header - END **/
 
@@ -56,10 +60,10 @@ nav span {
 .banner {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
     height: 700px;
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
-#mission {
+.mission {
     background-color: black;
     width: 100%;
     margin: auto;
@@ -85,9 +89,9 @@ nav span {
 .type {
     padding: 5px;
 }
+
 .teas span {
     font-weight: bold;
-
 }
 
 /** Teas of the Month - END **/
@@ -106,6 +110,7 @@ nav span {
 .locations {
     display: inline-flex;
 }
+
 .location {
     background-color: black;
     opacity: 1;
@@ -113,6 +118,7 @@ nav span {
     margin: 5px 20px;
     padding: 5px;
 }
+
 /** Locations - END **/
 
 /** Footer - START **/
@@ -121,7 +127,7 @@ nav span {
     height: 200px;
 }
 
-.copyright {
+#copyright {
     text-align: left;
     margin-left: 20px;
 }
