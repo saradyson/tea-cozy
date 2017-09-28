@@ -34,7 +34,6 @@ header {
 }
 
 .logo {
-    max-height: 50px;
     margin-left: 10px;
     text-align: left;
 }
@@ -42,6 +41,11 @@ header {
 nav {
     text-align: right;
     flex-grow: 1;
+}
+
+nav span {
+    margin: 5px;
+    padding-right: 10px;
 }
 
 
@@ -55,7 +59,7 @@ nav {
     padding-top: 70px;
 }
 
-.mission {
+#mission {
     background-color: black;
     width: 100%;
     margin: auto;
@@ -67,12 +71,12 @@ nav {
 
 /** Teas of the Month - START **/
 
-.month {
+#month {
     max-width: 1000px;
     margin: auto;
 }
 
-.month img {
+#month img {
     height: 200px;
     display: block;
     margin: 10px;
@@ -90,12 +94,12 @@ nav {
 
 /** Locations - START **/
 
-.shop {
+#shop {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     height: 600px;
 }
 
-.shop h2 {
+#shop h2 {
     padding-top: 60px;
 }
 
